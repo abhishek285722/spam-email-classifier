@@ -1,0 +1,227 @@
+{
+  "task": "Spam Email Classifier",
+  "trained_at": "2026-09-19 11:20:40",
+  "accuracy": 0.9856502242152466,
+  "cross_validation": {
+    "n_folds": 5,
+    "fold_scores": [
+      0.979372197309417,
+      0.9883408071748879,
+      0.9856502242152466,
+      0.9766816143497757,
+      0.9919210053859964
+    ],
+    "mean_accuracy": 0.9843931696870648,
+    "std_accuracy": 0.0056304633462863525
+  },
+  "dataset_stats": {
+    "total": 5574,
+    "spam_count": 747,
+    "ham_count": 4827,
+    "spam_pct": 13.40150699677072,
+    "ham_pct": 86.59849300322928
+  },
+  "train_samples": 4459,
+  "test_samples": 1115,
+  "confusion_matrix": [
+    [
+      962,
+      4
+    ],
+    [
+      12,
+      137
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9876796714579056,
+      "recall": 0.9958592132505176,
+      "f1-score": 0.9917525773195877,
+      "support": 966.0
+    },
+    "1": {
+      "precision": 0.9716312056737588,
+      "recall": 0.9194630872483222,
+      "f1-score": 0.9448275862068966,
+      "support": 149.0
+    },
+    "accuracy": 0.9856502242152466,
+    "macro avg": {
+      "precision": 0.9796554385658323,
+      "recall": 0.9576611502494199,
+      "f1-score": 0.968290081763242,
+      "support": 1115.0
+    },
+    "weighted avg": {
+      "precision": 0.9855350782724008,
+      "recall": 0.9856502242152466,
+      "f1-score": 0.9854818834399545,
+      "support": 1115.0
+    }
+  },
+  "top_spam_keywords": [
+    {
+      "word": "claim",
+      "score": 6.094940096452038
+    },
+    {
+      "word": "prize",
+      "score": 5.9086911148682795
+    },
+    {
+      "word": "phonenumber",
+      "score": 5.755388085181814
+    },
+    {
+      "word": "150p",
+      "score": 5.657066787944017
+    },
+    {
+      "word": "money cash",
+      "score": 5.4714598441722355
+    },
+    {
+      "word": "18",
+      "score": 5.460555155110127
+    },
+    {
+      "word": "money prize",
+      "score": 5.459445954103492
+    },
+    {
+      "word": "guaranteed",
+      "score": 5.37832150369063
+    },
+    {
+      "word": "tone",
+      "score": 5.293931774839583
+    },
+    {
+      "word": "cs",
+      "score": 5.2724847876746805
+    },
+    {
+      "word": "ringtone",
+      "score": 5.230695669538656
+    },
+    {
+      "word": "landline",
+      "score": 5.147008122854623
+    },
+    {
+      "word": "awarded",
+      "score": 5.144126471972364
+    },
+    {
+      "word": "150ppm",
+      "score": 5.034694750663157
+    },
+    {
+      "word": "win money",
+      "score": 4.941892348009064
+    },
+    {
+      "word": "collection",
+      "score": 4.898638994595267
+    },
+    {
+      "word": "send stop",
+      "score": 4.8045072850685635
+    },
+    {
+      "word": "unsubscribe",
+      "score": 4.776168176263114
+    },
+    {
+      "word": "weekly",
+      "score": 4.774451309091565
+    },
+    {
+      "word": "entry",
+      "score": 4.74765581834653
+    }
+  ],
+  "top_ham_keywords": [
+    {
+      "word": "da",
+      "score": 4.8790165430313115
+    },
+    {
+      "word": "lor",
+      "score": 4.811456771723503
+    },
+    {
+      "word": "later",
+      "score": 4.7857140609744135
+    },
+    {
+      "word": "doing",
+      "score": 4.307308870499316
+    },
+    {
+      "word": "lol",
+      "score": 4.274965242802233
+    },
+    {
+      "word": "ask",
+      "score": 4.2494316636317935
+    },
+    {
+      "word": "gonna",
+      "score": 4.09756659338435
+    },
+    {
+      "word": "class",
+      "score": 4.0945574515446665
+    },
+    {
+      "word": "sure",
+      "score": 4.079568456502059
+    },
+    {
+      "word": "ll later",
+      "score": 4.045288995410325
+    },
+    {
+      "word": "said",
+      "score": 4.024649950678527
+    },
+    {
+      "word": "yup",
+      "score": 4.0219029706331355
+    },
+    {
+      "word": "sorry ll",
+      "score": 3.983948115008646
+    },
+    {
+      "word": "cos",
+      "score": 3.9807549296739104
+    },
+    {
+      "word": "morning",
+      "score": 3.9724890627694682
+    },
+    {
+      "word": "fine",
+      "score": 3.970091809616413
+    },
+    {
+      "word": "coming",
+      "score": 3.967103838325939
+    },
+    {
+      "word": "home",
+      "score": 3.9549193685844664
+    },
+    {
+      "word": "ya",
+      "score": 3.929354346606818
+    },
+    {
+      "word": "haha",
+      "score": 3.882408697530984
+    }
+  ]
+}
